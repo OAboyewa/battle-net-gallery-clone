@@ -12,16 +12,30 @@
     overflow: scroll hidden;
 }
 
+.gallery-control > button {
+    width: 35px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: rgb(32, 32, 32);
+    font-size: x-large;
+    color: white;
+}
+
+.gallery-control > button:hover {
+    border: 2px solid gray;
+}
+
 .gallery-control > button:nth-child(1) {
     float: left;
     position: relative;
-    left: 0;
-    bottom: 205.5px;
+    left: 10px;
+    bottom: 215.5px;
 }
 
 .gallery-control > button:nth-child(2) {
     float: right;
     position: relative;
-    right: 0;
-    bottom: 205.5px;
+    right: 10px;
+    bottom: 215.5px;
 }
