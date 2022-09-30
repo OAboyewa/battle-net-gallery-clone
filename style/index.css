@@ -1,11 +1,8 @@
-section {
-    
-}
 
 .container {
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1000px;
     border: 1px solid black;
 }
 
@@ -15,7 +12,16 @@ section {
     overflow: scroll hidden;
 }
 
-.container:nth-child(2) {
-    position: fixed;
-    top: 50%;
+.gallery-control > button:nth-child(1) {
+    float: left;
+    position: relative;
+    left: 0;
+    bottom: 205.5px;
+}
+
+.gallery-control > button:nth-child(2) {
+    float: right;
+    position: relative;
+    right: 0;
+    bottom: 205.5px;
 }
